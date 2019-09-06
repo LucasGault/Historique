@@ -15,7 +15,7 @@ div{
 	top: 15%; left: 25%;
     width: 65%; height: 75%;
     border: 1px solid black;
-
+    border-radius: 10px 10px 10px 10px;
 }
 
 .parcelle div:hover{
@@ -29,12 +29,14 @@ div{
 .parcelle1{
     width: 50%; height: 50%;
     background-color: #53b446;
+    border-radius: 10px 0px 0px 0px;
 
 }
 
 .parcelle2{
     top: 50%; 
     width: 50%; height: 50%;
+    border-radius: 0px 0px 0px 10px;
 
 }
 .parcelle2-1{
@@ -46,11 +48,13 @@ div{
     top: 50%;
     width: 100%; height: 50%;
     background-color: #63df3e;
+    border-radius: 0px 0px 0px 10px;
 
 }
 .parcelle3{
     left: 50%;
     width: 50%; height: 50%;
+    border-radius: 0px 10px 0px 0px;
 }
 .parcelle3-1{
     width: 50%; height: 100%;
@@ -71,12 +75,14 @@ div{
     left: 50%;
     width: 50%; height: 100%;
     background-color: #1b6611;
+    border-radius: 0px 10px 0px 0px;
 
 }
 .parcelle4{
     top: 50%; left: 50%;
     width: 50%; height: 50%;
     background-color: #305a2b;
+    border-radius: 0px 0px 10px 0px;
 
 }
 
