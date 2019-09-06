@@ -1,0 +1,90 @@
+*{margin:0;padding:0;background-color: white;}
+
+.legende{
+    position: absolute;
+    top: 20%; left: 3%;
+    width: 20%; height: 70%;
+    border: 1px solid black;
+}
+.titreL {
+    position: absolute;
+    top: 15%; left: 3%;
+    width: 20%; height: 5%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+.legende > h5{
+    padding-left: 5%;
+}
+.legende > p {
+    padding-left: 10%;
+}
+
+.Carotte{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 25%; left: 25%;
+    width: 50%; height: 50%;
+    background-color: #53b446;
+}
+.Poivron{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 25%; left: 25%;
+    width: 50%; height: 50%;
+    background-color: #305a2b;
+
+}
+
+.Oignon{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 25%; left: 35%;
+    width: 25%; height: 50%;
+    background-color: #1b6611;
+
+}
+
+.Radis{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 35%; left: 35%;
+    width: 25%; height: 25%;
+    background-color: #77ca6c;
+
+}
+
+.Tomate{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 35%; left: 35%;
+    width: 25%; height: 25%;
+    background-color: #77ca6c;
+
+}
+
+.PommeDeTerre{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 35%; left: 30%;
+    width: 45%; height: 25%;
+    background-color: #63df3e;
+}
+
+.ChouDeBruxelle{
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 35%; left: 30%;
+    width: 45%; height: 25%;
+    background-color: #1a940a;
+
+}
