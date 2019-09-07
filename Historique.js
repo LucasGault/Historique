@@ -25,3 +25,4 @@ document.querySelector(".parcelle3-2").addEventListener("click", () => {
 document.querySelector(".parcelle4").addEventListener("click", () => {
     document.location.href="Poivron.html"
 });
+
