@@ -12,6 +12,8 @@ var H2019 = document.getElementById('H2019');
 var H2018 = document.getElementById('H2018');
 var H2017 = document.getElementById('H2017');
 var H2016 = document.getElementById('H2016');
+var TP21 = document.getElementById('Tparcelle2-1');
+var TP32 = document.getElementById('Tparcelle3-2');
 
 
 Gerer.onclick = function(){
@@ -104,4 +106,18 @@ Arracher.onclick = function(){
 
 Transplanter.onclick = function(){
     document.querySelector(".Transplanter").style.visibility = "visible";
+}
+
+TP21.onclick = function(){
+    alert("Les légumes on été transplanté sur la parcelle 2-1");
+}
+TP32.onclick = function(){
+    alert("Les légumes on été transplanté sur la parcelle 3-2");
+}
+
+Maladie.onclick = function(){
+    alert("Alterniatiose détecté !");
+}
+Ravageur.onclick = function(){
+    alert("Puceron Repéré !");
 }
