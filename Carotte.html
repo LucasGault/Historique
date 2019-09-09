@@ -14,12 +14,6 @@
     <div class="arbre">
         <a href="Historique.html">Historique</a> > <a href="Carotte.html">Parcelle1</a> > <p>Historique</p>
     </div>
-    <div class="annee">
-        <button>2019</button>
-        <button>2018</button>
-        <button>2017</button>
-        <button>2016</button>
-    </div>
     <div class="titreL">Légende</div>
     <div class="legende">
         <h5>Gérer les légumes</h5>
@@ -37,7 +31,15 @@
         <p>M  : Maladie</p>
         <p>RA : Ravageur </p>    
     </div>
-    <div class="Carotte">Carotte</div>
+    <div class="Carotte">Carotte 
+        <!-- <p class="RecolterC" style="visibility: hidden"> <br> Re : 3 mois</p> -->
+        <p class="Transplanter" style="visibility: hidden"> T : Vers <button>parcelle 2-1</button> ou <button>parcelle 3-2</button></p>
+        <p class="H2019" style="visibility: hidden"> DE : Juillet 2019 <br> RE: Tomate Juin 2019</p>
+        <p class="H2018"style="visibility: hidden"> SE: Poivron Janvier 2018 <br> M : (nom de maladie) Février 2018 <br> AT: Mars 2018 <br> DB : Mars 2018 <br> Se : Oignon Avril 2018</p>
+        <p class="H2017"style="visibility: hidden"> Re: Oignon Janvier 2017</p>
+        <p class="H2016"style="visibility: hidden"> Se: Tomate Janvier 2016 <br> Ra : (nom de ravageur) Janvier 2016</p>
+
+    </div>
     <div class="Gestion">
         <p id="Gestion">
             <button id="Gerer">Gérer les légumes</button>
@@ -45,26 +47,31 @@
             <button id="Observer">Observer</button>
             <button id="Historique">Historique</button>
         </p>
-        <p class="Gerer">Gérer les légumes
-            <button>Semer</button>
-            <button>Transplanter</button>
-            <button>Récolter</button>
-            <button>Arracher</button>
+        <p class="Gerer">
+            <button id="Semer">Semer</button>
+            <button id="Transplanter">Transplanter</button>
+            <button id="Recolter">Récolter</button>
+            <button id="Arracher">Arracher</button>
         </p>
-        <p class="Travailler">Travailler le sol
-            <button>Double-Bêchage</button>
-            <button>Sarclage</button>
-            <button>Désherbage</button>
-            <button>Amendement de la terre</button>
-            <button>Traitement avec un purin</button>
+        <p class="Travailler">
+            <button id="DoubleBechage">Double-Bêchage</button>
+            <button id="Sarclage">Sarclage</button>
+            <button id="Desherbage">Désherbage</button>
+            <button id="Amendement">Amendement de la terre</button>
+            <button id="TraitementPurin">Traitement avec un purin</button>
         </p>
-        <p class="Observer">Observer
-            <button>Maladie</button>
-            <button>Ravageur</button>
+        <p class="Observer">
+            <button id="Maladie">Maladie</button>
+            <button id="Ravageur">Ravageur</button>
         </p>
-        <p class="Historique">Historique</p>
+        <p class="Historique">
+            <button id="H2019">2019</button>
+            <button id="H2018">2018</button>
+            <button id="H2017">2017</button>
+            <button id="H2016">2016</button>
+        </p>
     </div>
+<script type="text/javascript" src="legumes.js"></script>
     
 </body>
-<script type="text/javascript" src="legumes.js"></script>
 </html>
