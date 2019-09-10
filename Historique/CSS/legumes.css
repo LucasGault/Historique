@@ -5,6 +5,7 @@
     top: 20%; left: 3%;
     width: 20%; height: 70%;
     border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
 }
 .titreL {
     position: absolute;
@@ -13,6 +14,7 @@
     border: 1px solid black;
     text-align: center;
     background-color: whitesmoke;
+    border-radius: 10px 10px 0px 0px;
 }
 .legende > h5{
     padding-left: 5%;
