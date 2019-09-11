@@ -19,6 +19,14 @@ div{
     position: absolute;
     border: 0px solid black;
     top: 2%; left: 3%;
+    background-color: transparent;
+}
+.arbre > p {
+    background-color: transparent;
+}
+.arbre > a {
+    background-color: transparent;
+    color: black;
 }
 
 .parcelle{
@@ -41,8 +49,9 @@ div{
     width: 50%; height: 50%;
     background-color: #53b446;
     border-radius: 10px 0px 0px 0px;
-    /* background-image: url(th.jpg); */
-
+    background-image: url("../Image/carottes.jpg");
+    background-position: center;
+    
 }
 
 .parcelle2{
