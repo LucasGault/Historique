@@ -88,10 +88,10 @@ Travailler.onclick = function(){
     document.querySelector(".Ma").style.visibility = "hidden";
     document.querySelector(".Ra").style.visibility = "hidden";
 
-    document.querySelector(".2019").style.visibility = "hidden";
-    document.querySelector(".2018").style.visibility = "hidden";
-    document.querySelector(".2017").style.visibility = "hidden";
-    document.querySelector(".2016").style.visibility = "hidden";
+    document.querySelector(".H9").style.visibility = "hidden";
+    document.querySelector(".H8").style.visibility = "hidden";
+    document.querySelector(".H7").style.visibility = "hidden";
+    document.querySelector(".H6").style.visibility = "hidden";
 }
 
 Observer.onclick = function(){
@@ -124,10 +124,10 @@ Observer.onclick = function(){
     document.querySelector(".Ma").style.visibility = "hidden";
     document.querySelector(".Ra").style.visibility = "hidden";
 
-    document.querySelector(".2019").style.visibility = "hidden";
-    document.querySelector(".2018").style.visibility = "hidden";
-    document.querySelector(".2017").style.visibility = "hidden";
-    document.querySelector(".2016").style.visibility = "hidden";
+    document.querySelector(".H9").style.visibility = "hidden";
+    document.querySelector(".H8").style.visibility = "hidden";
+    document.querySelector(".H7").style.visibility = "hidden";
+    document.querySelector(".H6").style.visibility = "hidden";
 }
 
 Historique.onclick = function(){
@@ -159,34 +159,53 @@ Historique.onclick = function(){
     document.querySelector(".Ma").style.visibility = "hidden";
     document.querySelector(".Ra").style.visibility = "hidden";
 
-    document.querySelector(".2019").style.visibility = "hidden";
-    document.querySelector(".2018").style.visibility = "hidden";
-    document.querySelector(".2017").style.visibility = "hidden";
-    document.querySelector(".2016").style.visibility = "hidden";
+    document.querySelector(".H9").style.visibility = "visible";
+    document.querySelector(".H8").style.visibility = "hidden";
+    document.querySelector(".H7").style.visibility = "hidden";
+    document.querySelector(".H6").style.visibility = "hidden";
 }
 H2019.onclick = function(){
     document.querySelector(".H2019").style.visibility = "visible";
     document.querySelector(".H2018").style.visibility = "hidden";
     document.querySelector(".H2017").style.visibility = "hidden";
     document.querySelector(".H2016").style.visibility = "hidden";
+    document.querySelector(".H9").style.visibility = "visible";
+    document.querySelector(".H8").style.visibility = "hidden";
+    document.querySelector(".H7").style.visibility = "hidden";
+    document.querySelector(".H6").style.visibility = "hidden";
 }
 H2018.onclick = function(){
     document.querySelector(".H2019").style.visibility = "hidden";
     document.querySelector(".H2018").style.visibility = "visible";
     document.querySelector(".H2017").style.visibility = "hidden";
     document.querySelector(".H2016").style.visibility = "hidden";
+
+    document.querySelector(".H9").style.visibility = "hidden";
+    document.querySelector(".H8").style.visibility = "visible";
+    document.querySelector(".H7").style.visibility = "hidden";
+    document.querySelector(".H6").style.visibility = "hidden";
 }
 H2017.onclick = function(){
     document.querySelector(".H2019").style.visibility = "hidden";
     document.querySelector(".H2018").style.visibility = "hidden";
     document.querySelector(".H2017").style.visibility = "visible";
     document.querySelector(".H2016").style.visibility = "hidden";
+
+    document.querySelector(".H9").style.visibility = "hidden";
+    document.querySelector(".H8").style.visibility = "hidden";
+    document.querySelector(".H7").style.visibility = "visible";
+    document.querySelector(".H6").style.visibility = "hidden";
 }
 H2016.onclick = function(){
     document.querySelector(".H2019").style.visibility = "hidden";
     document.querySelector(".H2018").style.visibility = "hidden";
     document.querySelector(".H2017").style.visibility = "hidden";
     document.querySelector(".H2016").style.visibility = "visible";
+
+    document.querySelector(".H9").style.visibility = "hidden";
+    document.querySelector(".H8").style.visibility = "hidden";
+    document.querySelector(".H7").style.visibility = "hidden";
+    document.querySelector(".H6").style.visibility = "visible";
 }
 Recolter.onclick = function(){
     // document.querySelector(".RecolterC").style.visibility = "visible";
@@ -223,9 +242,14 @@ TP32.onclick = function(){
 }
 
 Maladie.onclick = function(){
+    document.querySelector(".Ma").style.visibility = "visible";
+    document.querySelector(".Ra").style.visibility = "hidden";
+    
     alert("Alterniatiose détecté !");
 }
 Ravageur.onclick = function(){
+    document.querySelector(".Ma").style.visibility = "hidden";
+    document.querySelector(".Ra").style.visibility = "visible";
     alert("Puceron Aperçu !");
 }
 
