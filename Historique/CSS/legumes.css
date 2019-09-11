@@ -98,12 +98,72 @@ body{
 .arbre{
     position: absolute;
     top: 2%; left: 3%;
+    background-color: transparent;
+
 }
 
 .arbreGestion{
     position: absolute;
     top: 2%; left: 101%;
     width: 90%; height: 100%;
+    background-color: transparent;
+}
+.arbreGLL{
+    position: absolute;
+    top: 2%; left: 192%;
+    width: 90%; height: 100%;
+    background-color: transparent;
+}
+.arbreGLL > p {
+    position: absolute;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+.arbreTll{
+    position: absolute;
+    top: 2%; left: 182%;
+    width: 130%; height: 100%;
+    background-color: transparent;
+}
+.arbreTll > p {
+    position: absolute;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+.arbreO{
+    position: absolute;
+    top: 2%; left: 155%;
+    width: 130%; height: 100%;
+    background-color: transparent;
+}
+.arbreO > p {
+    position: absolute;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+.arbreH{
+    position: absolute;
+    top: 2%; left: 159%;
+    width: 130%; height: 100%;
+    background-color: transparent;
+}
+.arbreH > p {
+    position: absolute;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+
+.arbre > a {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.arbreGestion > p {
+    position: absolute;
+    background-color: transparent;
 }
 
 .Gestion{
@@ -138,7 +198,6 @@ button{
     visibility: hidden;
 }
 
-/*/////////*/
 
 .Carotte > .H2019{
     visibility: hidden;
