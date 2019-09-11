@@ -1,0 +1,126 @@
+*{margin:0;padding:0;background-color: white;}
+
+body{
+    position: absolute;
+	background-repeat:no-repeat;
+	background-image: url("../Image/potager.jpg");
+	background-size: cover;
+    background-position: center;
+    width: 100%;
+	height: 100%;
+}
+
+div{
+    position: absolute;
+    
+}
+
+.arbre{
+    position: absolute;
+    border: 0px solid black;
+    top: 2%; left: 3%;
+}
+
+.parcelle{
+	top: 15%; left: 25%;
+    width: 65%; height: 75%;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.parcelle div:hover{
+    background-color: rgb(255, 0, 13);
+}
+
+.parcelle div:active{
+    background-color: rgb(219, 255, 13);
+}
+
+.parcelle1{
+    width: 50%; height: 50%;
+    background-color: #53b446;
+    border-radius: 10px 0px 0px 0px;
+    /* background-image: url(th.jpg); */
+
+}
+
+.parcelle2{
+    top: 50%; 
+    width: 50%; height: 50%;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.parcelle2-1{
+    width: 100%; height: 50%;
+    background-color: #1a940a;
+}
+.parcelle2-2{
+    top: 50%;
+    width: 100%; height: 50%;
+    background-color: #63df3e;
+    border-radius: 0px 0px 0px 10px;
+
+}
+.parcelle3{
+    left: 50%;
+    width: 50%; height: 50%;
+    border-radius: 0px 10px 0px 0px;
+}
+.parcelle3-1{
+    width: 50%; height: 100%;
+    
+}
+.parcelle3-1-1{
+    width: 100%; height: 50%;
+    background-color: #66e456;
+}
+.parcelle3-1-2{
+    top: 50%;
+    width: 100%; height: 50%;
+    background-color: #77ca6c;
+}
+.parcelle3-2{
+    left: 50%;
+    width: 50%; height: 100%;
+    background-color: #1b6611;
+    border-radius: 0px 10px 0px 0px;
+
+}
+.parcelle4{
+    top: 50%; left: 50%;
+    width: 50%; height: 50%;
+    background-color: #305a2b;
+    border-radius: 0px 0px 10px 0px;
+
+}
+
+.legende{
+    top: 20%; left: 3%;
+    width: 20%; height: 70%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.legende > p{
+    padding-left: 10%;
+}
+
+.titreL {
+    position: absolute;
+    top: 15%; left: 3%;
+    width: 20%; height: 5%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+.parcelle > div{
+    text-align: center;
+}
+
+.titreL{
+    border-radius: 10px 10px 0px 0px;
+}
