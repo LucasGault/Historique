@@ -13,23 +13,26 @@ body{
     position: absolute;
     top: 20%; left: 3%;
     width: 20%; height: 70%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 0px 0px 10px 10px;
+    background-color: rgba(106,64,1,0.800);
 }
 .titreL {
     position: absolute;
     top: 15%; left: 3%;
     width: 20%; height: 5%;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
-    background-color: whitesmoke;
     border-radius: 10px 10px 0px 0px;
+    background-color: rgba(106,64,1,0.800);
 }
 .legende > h5{
     padding-left: 5%;
+    background-color: transparent;
 }
 .legende > p {
     padding-left: 10%;
+    background-color: transparent;
 }
 
 .Carotte{
@@ -198,6 +201,13 @@ button{
     visibility: hidden;
 }
 
+.Carotte > .Transplanter
+{
+    background-color: #53b446;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
 
 .Carotte > .H2019{
     visibility: hidden;
@@ -228,12 +238,20 @@ button{
     left: 35%;
 }
 
+.Tomate > .Transplanter
+{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
 .Tomate > .H2019{
     visibility: hidden;
     background-color: #77ca6c;
     position: absolute;
     top: 45%;
-    left: 30%;
+    left: 15%;
 }
 
 .Tomate > .H2018{
@@ -256,6 +274,15 @@ button{
     top: 45%;
     left: 15%;
 }
+
+.Radis > .Transplanter
+{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
 
 .Radis > .H2019{
     visibility: hidden;
@@ -284,6 +311,14 @@ button{
     position: absolute;
     top: 45%;
     left: 15%;
+}
+
+.PommeDeTerre > .Transplanter
+{
+    background-color: #63df3e;
+    position: absolute;
+    top: 45%;
+    left: 35%;
 }
 
 .PommeDeTerre > .H2019{
@@ -315,6 +350,14 @@ button{
     left: 30%;
 }
 
+.Poivron > .Transplanter
+{
+    background-color: #305a2b;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
 .Poivron > .H2019{
     visibility: hidden;
     background-color: #305a2b;
@@ -342,6 +385,80 @@ button{
     position: absolute;
     top: 45%;
     left: 30%;
+}
+
+.ChouDeBruxelle > .Transplanter
+{
+    background-color: #1a940a;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.ChouDeBruxelle > .H2019{
+    visibility: hidden;
+    background-color: #1a940a;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.ChouDeBruxelle > .H2018{
+    background-color: #1a940a;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.ChouDeBruxelle > .H2017{
+    background-color: #1a940a;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.ChouDeBruxelle > .H2016{
+    background-color: #1a940a;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Oignon > .Transplanter
+{
+    background-color: #1b6611;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Oignon > .H2019{
+    visibility: hidden;
+    background-color: #1b6611;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Oignon > .H2018{
+    background-color: #1b6611;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.Oignon > .H2017{
+    background-color: #1b6611;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Oignon > .H2016{
+    background-color: #1b6611;
+    position: absolute;
+    top: 45%;
+    left: 35%;
 }
 
 .Gestion > #Gestion > button
@@ -451,4 +568,54 @@ button{
     border-radius:2px;
     width:90%;
     border:none;
+}
+
+.Carotte
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Radis
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Tomate
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.PommeDeTerre
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Poivron
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Carotte
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ChouDeBruxelle
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Oignon
+{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Gestion
+{
+    background-color: beige;
+}
+
+#Gestion
+{
+    background-color: beige;
 }

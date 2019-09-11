@@ -2,12 +2,12 @@
 
 body{
     position: absolute;
-	background-repeat:no-repeat;
-	background-image: url("../Image/potager.jpg");
-	background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url("../Image/potager.jpg");
+    background-size: cover;
     background-position: center;
     width: 100%;
-	height: 100%;
+    height: 100%;
 }
 
 div{
@@ -30,7 +30,7 @@ div{
 }
 
 .parcelle{
-	top: 15%; left: 25%;
+    top: 15%; left: 25%;
     width: 65%; height: 75%;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
@@ -38,7 +38,7 @@ div{
 }
 
 .parcelle div:hover{
-    background-color: rgb(255, 0, 13);
+    background-color: orange;
 }
 
 .parcelle div:active{
@@ -110,10 +110,17 @@ div{
     background-color: white;
     border: 1px solid black;
     border-radius: 0px 0px 10px 10px;
+    background-color: rgba(106,64,1,0.800);
 }
 
 .legende > p{
     padding-left: 10%;
+    background-color: transparent;
+}
+
+.legende > h5{
+    padding-left: 5%;
+    background-color: transparent;
 }
 
 .titreL {
@@ -123,6 +130,7 @@ div{
     border: 1px solid black;
     text-align: center;
     background-color: whitesmoke;
+    background-color: rgba(106,64,1,0.800);
 
 }
 
