@@ -27,7 +27,11 @@ Gerer.onclick = function(){
     document.querySelector(".H2017").style.visibility = "hidden";
     document.querySelector(".H2016").style.visibility = "hidden";
     document.querySelector(".Transplanter").style.visibility = "hidden";
-
+    document.querySelector(".Gll").style.visibility = "visible";
+    document.querySelector(".Tll").style.visibility = "hidden";
+    document.querySelector(".O").style.visibility = "hidden";
+    document.querySelector(".H").style.visibility = "hidden";
+    
 }
 
 Travailler.onclick = function(){
@@ -41,6 +45,10 @@ Travailler.onclick = function(){
     document.querySelector(".H2017").style.visibility = "hidden";
     document.querySelector(".H2016").style.visibility = "hidden";
     document.querySelector(".Transplanter").style.visibility = "hidden";
+    document.querySelector(".Gll").style.visibility = "hidden";
+    document.querySelector(".Tll").style.visibility = "visible";
+    document.querySelector(".O").style.visibility = "hidden";
+    document.querySelector(".H").style.visibility = "hidden";
 
 }
 
@@ -55,6 +63,10 @@ Observer.onclick = function(){
     document.querySelector(".H2017").style.visibility = "hidden";
     document.querySelector(".H2016").style.visibility = "hidden";
     document.querySelector(".Transplanter").style.visibility = "hidden";
+    document.querySelector(".Gll").style.visibility = "hidden";
+    document.querySelector(".Tll").style.visibility = "hidden";
+    document.querySelector(".O").style.visibility = "visible";
+    document.querySelector(".H").style.visibility = "hidden";
 
 }
 
@@ -69,6 +81,10 @@ Historique.onclick = function(){
     document.querySelector(".H2017").style.visibility = "hidden";
     document.querySelector(".H2016").style.visibility = "hidden";
     document.querySelector(".Transplanter").style.visibility = "hidden";
+    document.querySelector(".Gll").style.visibility = "hidden";
+    document.querySelector(".Tll").style.visibility = "hidden";
+    document.querySelector(".O").style.visibility = "hidden";
+    document.querySelector(".H").style.visibility = "visible";
 
 }
 H2019.onclick = function(){
