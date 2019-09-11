@@ -32,13 +32,17 @@ div{
 .parcelle{
     top: 15%; left: 25%;
     width: 65%; height: 75%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px 10px 10px 10px;
 
 }
 
+.parcelle div {
+    color: white;
+}
 .parcelle div:hover{
-    background-color: orange;
+    /* background-color: orange; */
+    border-color: rgb(148, 196, 17);
 }
 
 .parcelle div:active{
@@ -46,11 +50,14 @@ div{
 }
 
 .parcelle1{
-    width: 50%; height: 50%;
+    width: 50%; height: 48%;
     background-color: #53b446;
     border-radius: 10px 0px 0px 0px;
     background-image: url("../Image/carottes.jpg");
-    background-position: center;
+    /* background-position: center; */
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 4px solid black;
     
 }
 
@@ -63,13 +70,22 @@ div{
 .parcelle2-1{
     width: 100%; height: 50%;
     background-color: #1a940a;
+    background-image: url("../Image/terre.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 4px solid black;
 }
 .parcelle2-2{
     top: 50%;
     width: 100%; height: 50%;
     background-color: #63df3e;
     border-radius: 0px 0px 0px 10px;
-
+    background-image: url("../Image/PommeDeTerre.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 4px solid black;
 }
 .parcelle3{
     left: 50%;
@@ -83,25 +99,43 @@ div{
 .parcelle3-1-1{
     width: 100%; height: 50%;
     background-color: #66e456;
+    background-image: url("../Image/Tomate.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 4px solid black;
 }
 .parcelle3-1-2{
     top: 50%;
     width: 100%; height: 50%;
     background-color: #77ca6c;
+    background-image: url("../Image/Radis.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 4px solid black;
 }
 .parcelle3-2{
     left: 50%;
     width: 50%; height: 100%;
     background-color: #1b6611;
     border-radius: 0px 10px 0px 0px;
-
+    background-image: url("../Image/terre.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 4px solid black;
 }
 .parcelle4{
     top: 50%; left: 50%;
     width: 50%; height: 50%;
     background-color: #305a2b;
     border-radius: 0px 0px 10px 0px;
-
+    background-image: url("../Image/Poivron.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 4px solid black;
 }
 
 .legende{
