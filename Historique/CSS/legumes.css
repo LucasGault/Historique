@@ -137,6 +137,259 @@ button{
 .Historique{
     visibility: hidden;
 }
-.H2019{
+
+/*/////////*/
+
+.Carotte > .H2019{
     visibility: hidden;
+    background-color: #53b446;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Carotte > .H2018{
+    background-color: #53b446;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.Carotte > .H2017{
+    background-color: #53b446;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Carotte > .H2016{
+    background-color: #53b446;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Tomate > .H2019{
+    visibility: hidden;
+    background-color: #77ca6c;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.Tomate > .H2018{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.Tomate > .H2017{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.Tomate > .H2016{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.Radis > .H2019{
+    visibility: hidden;
+    background-color: #77ca6c;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.Radis > .H2018{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.Radis > .H2017{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.Radis > .H2016{
+    background-color: #77ca6c;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.PommeDeTerre > .H2019{
+    visibility: hidden;
+    background-color: #63df3e;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.PommeDeTerre > .H2018{
+    background-color: #63df3e;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.PommeDeTerre > .H2017{
+    background-color: #63df3e;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.PommeDeTerre > .H2016{
+    background-color: #63df3e;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.Poivron > .H2019{
+    visibility: hidden;
+    background-color: #305a2b;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.Poivron > .H2018{
+    background-color: #305a2b;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.Poivron > .H2017{
+    background-color: #305a2b;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.Poivron > .H2016{
+    background-color: #305a2b;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.Gestion > #Gestion > button
+{
+    margin-left: 2.5%;
+    padding:6px 0 6px 0;
+    font:Bold 13px Arial;
+    background:#d34836;
+    color:#fff;
+    width:45%;
+    border-radius:2px;
+    border:none;
+}
+
+.Gestion > #Gestion > #Gerer
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.Gestion > #Gestion > #Observer
+{
+    margin-bottom: 5px;
+}
+
+.Gestion > .Gerer > button
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#478bf9;
+    color:#fff;
+    border-radius:2px;
+    width:90%;
+    border:none;
+}
+
+.Travailler
+{
+    position: absolute;
+    top: 15%;
+}
+
+.Travailler
+{
+    position: absolute;
+    top: 15%;
+}
+
+.Observer
+{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.Historique
+{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.Gestion > .Travailler > button
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#478bf9;
+    color:#fff;
+    border-radius:2px;
+    width:90%;
+    border:none;
+}
+
+.Gestion > .Observer > button
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#478bf9;
+    color:#fff;
+    border-radius:2px;
+    width:90%;
+    border:none;
+}
+
+.Gestion > .Historique > button
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#478bf9;
+    color:#fff;
+    border-radius:2px;
+    width:90%;
+    border:none;
 }
