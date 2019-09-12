@@ -387,6 +387,22 @@ button{
     left: 30%;
 }
 
+.ChouDeBruxelle > .Semer
+{
+    background-color: #1a940a;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.Oignon > .Semer
+{
+    background-color: #1a940a;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
 .ChouDeBruxelle > .Transplanter
 {
     background-color: #1a940a;
