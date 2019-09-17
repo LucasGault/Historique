@@ -1,0 +1,102 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/legumes.css">    
+
+    <title>Parcelle 1</title>
+</head>
+<body>
+    <div class="arbre">
+        <a href="Historique.html">Historique</a> <p> > </p> <a id="page" href="Carotte.html">Parcelle 1</a> 
+        <div class="arbreGestion">
+            <p class="GLL" style="visibility: hidden;"> > Gérer les légumes</p> 
+            <p class="Tll" style="visibility: hidden;"> > Travailler le sol</p> 
+            <p class="O" style="visibility: hidden;"> > Observer</p> 
+            <p class="H" style="visibility: hidden;"> > Historique</p>
+        </div>
+        <div class="arbreGLL">
+            <p class="Se"> > Semer</p>
+            <p class="Tr"> > Transplanter</p>
+            <p class="Re"> > Récolter</p>
+            <p class="Ar"> > Arracher</p>
+        </div>
+        <div class="arbreTll">
+            <p class="DB"> > Double-Bêchage</p>
+            <p class="Sa"> > Sarclage</p>
+            <p class="De"> > Désherbage</p>
+            <p class="AT"> > Amendement de la terre</p>
+            <p class="TP"> > Traitement avec un purin</p>
+        </div>
+        <div class="arbreO">
+            <p class="Ma"> > Maladie</p>
+            <p class="Ra"> > Ravageur</p>
+        </div>
+        <div class="arbreH">
+            <p class="H9"> > 2019</p>
+            <p class="H8"> > 2018</p>
+            <p class="H7"> > 2017</p>
+            <p class="H6"> > 2016</p>
+        </div>
+    </div>
+    <div class="titreL">Légende</div>
+    <div class="legende">
+        <h5>Gérer les légumes</h5>
+        <p>Se : Semer</p>
+        <p>T  : Transplanter</p>
+        <p>Re : Récolter</p>
+        <p>A  : Arracher</p>
+        <h5>Travailler le sol</h5>
+        <p>DB : Double-Bêchage</p>
+        <p>Sa : Sarclage</p>
+        <p>DE : Désherbage</p>
+        <p>AT : Amendement de la terre</p>
+        <p>TP : Traitement avec un purin</p>
+        <h5>Observer</h5>
+        <p>M  : Maladie</p>
+        <p>Ra : Ravageur </p>    
+    </div>
+    <div class="Carotte"> 
+        <p class="Recolter" style="visibility: visible">Les Carottes ont été récoltés ! </p>
+        <p class="H2019" style="visibility: hidden"> Re : Carotte Septembre 2019 <br> Se: Carotte Mai 2019 <br>DE : Avril 2019</p>
+        <p class="H2018"style="visibility: hidden"> SE: Poivron Janvier 2018 <br> M : (nom de maladie) Février 2018 <br> AT: Mars 2018 <br> DB : Mars 2018 <br> Se : Oignon Avril 2018</p>
+        <p class="H2017"style="visibility: hidden"> Re: Oignon Janvier 2017</p>
+        <p class="H2016"style="visibility: hidden"> Se: Tomate Janvier 2016 <br> Ra : (nom de ravageur) Janvier 2016</p>
+
+    </div>
+    <div class="Gestion">
+        <p id="Gestion">
+            <button id="Gerer">Gérer les légumes</button>
+            <button id="Travailler">Travailler le sol</button>
+            <button id="Observer">Observer</button>
+        </p>
+        <p class="Gerer">
+            <button id="Semer" >Semer</button>
+            <button id="Transplanter" style="background-color: black;">Transplanter</button>
+            <button id="Recolter" style="background-color: black;">Récolter</button>
+            <button id="Arracher" style="background-color: black;">Arracher</button>
+        </p>
+        <p class="Travailler">
+            <button id="DoubleBechage" >Double-Bêchage</button>
+            <button id="Sarclage" >Sarclage</button>
+            <button id="Desherbage" >Désherbage</button>
+            <button id="Amendement" >Amendement de la terre</button>
+            <button id="TraitementPurin" >Traitement avec un purin</button>
+        </p>
+        <p class="Observer">
+            <button id="Maladie" style="background-color: black;">Maladie</button>
+            <button id="Ravageur" style="background-color: black;">Ravageur</button>
+        </p>
+        <p class="Lecture"><button id="Historique">Historique</button></p>
+        <p class="Historique">
+            <button id="H2019">2019</button>
+            <button id="H2018">2018</button>
+            <button id="H2017">2017</button>
+            <button id="H2016">2016</button>
+        </p>
+    </div>
+<script type="text/javascript" src="./JS/CarotteRe.js"></script>
+    
+</body>
+</html>
